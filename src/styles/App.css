@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('../imgs/bg.png') no-repeat ;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+  .story-container{
+    color: white;
+    
+  }
+  .story{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: auto;
+    left: 10vw;
+    right: 20vw;
+    
+    
+  }
+  .game-container {
+    max-width: 800px;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid hsla(0, 100%, 100%, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .status,
+  .actions,
+  .inventory,
+  .store-container {
+    margin: 20px 0;
+  }
+  
+  button {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 10px 15px;
+    margin: 5px;
+    background: #00458f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: #002853;
+  }
+  
+  .inventory ul,
+  .store-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .inventory li,
+  .store-container li {
+    margin: 10px 0;
+    color:#130020;
+  }
+  .instructions {
+    margin-top: 20px;
+    padding: 10px;
+    background: hsla(240, 100%, 97%, 0);
+    border: 1px solid rgba(204, 204, 221, 0.486);
+    box-shadow:  hsla(0, 0%, 53%,0.2);
+    border-radius: 5px;
+  }
+  .instructions ul {
+    list-style: none;
+    padding: 0;
+  }
+  .instructions li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .instructions li b {
+    color: #f5f5f5;
+  }
+  img {
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  
+  }
